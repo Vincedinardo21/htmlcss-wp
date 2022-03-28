@@ -86,12 +86,12 @@ a:hover {
 
 .blocco2 {
     height: 520px;
-    background-color:#0187fd;
+    /* background-color:#0187fd; */
 }
 
 /* Righe nel blocco2 */
 .row1, .colside, .colcenter {
-    background-color: #abcfe7;
+    /* background-color: #abcfe7; */
 }
 
 .row1 {
@@ -101,7 +101,7 @@ a:hover {
 
 .colside {
     width: 24%;
-    height: 430px;
+    height: 550px;
     float: left;
 }
 
@@ -111,7 +111,7 @@ a:hover {
 
 .colcenter {
     width: 50%;
-    height: 430px;
+    height: 550px;
     margin-right: 1%;
     margin-left: 1%;
     float: left;
@@ -127,7 +127,7 @@ a:hover {
 footer {
     text-align: center;
     height: 50px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .hearth {
