@@ -53,20 +53,14 @@ a:hover {
     background-color:darkkhaki;
     margin-bottom: 20px;
     overflow: hidden;
+    background-color: black;
+    border-radius: 2%;
 }
 
 .blocco1 img {
     object-fit: cover;
     width: 100%;
-}
-
-.alpha {
-    width: 100%;
-    height: 700px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.6;
 }
 
 .maintext {
@@ -104,13 +98,35 @@ a:hover {
     height: 300px;
     float: left;
     overflow: hidden;
+    background-color: black;
+    border-radius: 5%;
+}
+
+.colside2 {
+    width: 24%;
+    height: 300px;
+    float: left;
+    overflow: hidden;
 }
 
 .colside img {
     width: 100%;
+    opacity: 0.6;
+    /* border-radius: 5%; */
 }
 
 .colcenter {
+    width: 50%;
+    height: 300px;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 3%;
+}
+
+.colcenter2 {
     width: 50%;
     height: 300px;
     margin-right: 1%;
@@ -121,11 +137,17 @@ a:hover {
 
 .colcenter img {
     width: 100%;
+    opacity: 0.6;
     /* height: 400px; */
 }
 
 .lorem {
     color: gray;
+}
+
+#third {
+    height: 300px;
+    object-fit: cover;
 }
 /* Fine Main */
 
