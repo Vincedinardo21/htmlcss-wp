@@ -125,6 +125,11 @@ a:hover {
 
 /* Regole Footer */
 footer {
+    text-align: center;
     height: 50px;
     background-color: blueviolet;
+}
+
+.hearth {
+    color: red;
 }
