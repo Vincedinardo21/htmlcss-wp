@@ -1,4 +1,8 @@
 /* Regole generali */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .blocco1::after {
     content: "";
     display: table;
@@ -13,13 +17,30 @@
 
 /* Regole Header */
 header {
-    height: 100px;
-    background-color:violet
+    height: 190px;
 }
 
 /* Regole Main */
 main {
     margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ header nav ul li  {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
 }
 
 .blocco1 {
