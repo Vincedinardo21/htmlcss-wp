@@ -105,12 +105,21 @@ a:hover {
     float: left;
 }
 
+.colside img {
+    width: 100%;
+}
+
 .colcenter {
     width: 50%;
     height: 430px;
     margin-right: 1%;
     margin-left: 1%;
     float: left;
+}
+
+.colcenter img {
+    width: 100%;
+    height: 300px;
 }
 /* Fine Main */
 
