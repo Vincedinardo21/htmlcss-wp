@@ -1,0 +1,65 @@
+/* Regole generali */
+.blocco1::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row2::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Regole Header */
+header {
+    height: 100px;
+    background-color:violet
+}
+
+/* Regole Main */
+main {
+    margin: 20px 0;
+}
+
+.blocco1 {
+    height: 300px;
+    background-color:darkkhaki;
+    margin-bottom: 20px;
+}
+
+.blocco2 {
+    height: 500px;
+    background-color:#0187fd;
+}
+
+/* Righe nel blocco2 */
+.row1, .colside, .colcenter {
+    background-color: #abcfe7;
+}
+
+.row1 {
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.colside {
+    width: 24%;
+    height: 430px;
+    float: left;
+}
+
+.colcenter {
+    width: 50%;
+    height: 430px;
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+}
+/* Fine Main */
+
+/* Regole Footer */
+footer {
+    height: 50px;
+    background-color: blueviolet;
+}
